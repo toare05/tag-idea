@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C8CCB5D52D76DD030086EAFD /* algorithm.md in Resources */ = {isa = PBXBuildFile; fileRef = C8CCB5D32D76DD030086EAFD /* algorithm.md */; };
+		C8CCB5D62D76DD030086EAFD /* prd.md in Resources */ = {isa = PBXBuildFile; fileRef = C8CCB5D42D76DD030086EAFD /* prd.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C81FCBEF2D76D50000C12C48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		C81FCBDE2D76D4FE00C12C48 /* tagidea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tagidea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81FCBEE2D76D50000C12C48 /* tagideaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tagideaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81FCBF82D76D50000C12C48 /* tagideaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tagideaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CCB5D32D76DD030086EAFD /* algorithm.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = algorithm.md; sourceTree = "<group>"; };
+		C8CCB5D42D76DD030086EAFD /* prd.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = prd.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +86,8 @@
 				C81FCBF12D76D50000C12C48 /* tagideaTests */,
 				C81FCBFB2D76D50000C12C48 /* tagideaUITests */,
 				C81FCBDF2D76D4FE00C12C48 /* Products */,
+				C8CCB5D32D76DD030086EAFD /* algorithm.md */,
+				C8CCB5D42D76DD030086EAFD /* prd.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8CCB5D52D76DD030086EAFD /* algorithm.md in Resources */,
+				C8CCB5D62D76DD030086EAFD /* prd.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
